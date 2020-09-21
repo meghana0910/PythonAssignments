@@ -1,0 +1,102 @@
+"""Answer1-A2"""
+#option 'a'- operands,an equation
+
+"""Answer2-A2"""
+a=9/2
+print(a)
+
+Output:
+4.5
+
+"""Answer3-A2"""
+c=22%3
+print("the remainder of 22/3 is",c)
+
+Output:
+the remainder of 22/3 is 1
+
+
+"""Answer4-A2"""
+a=4
+b=8
+
+print("the sum of a+b is", a+b )
+print('the difference of a and b is', a-b)
+print('the product of a and b is ', a*b)
+print('the quotient of a and b is ', a/b)
+print("the remainder of a and b", a%b)
+
+Output:
+the sum of a+b is 12
+the difference of a and b is -4
+the product of a and b is  32
+the quotient of a and b is  0.5
+the remainder of a and b 4
+
+"""Answer5"""
+a = 6
+b = 10
+if a<b :
+    print("A is larger")
+elif a>b :
+    print("B is larger")
+else:
+    print("Both are equal")
+
+
+
+"""Answer6-A2"""
+a = 4
+b = 5
+if a % 4 == 0 and a % 3 == 0 and b % 4 == 0 and b % 3 == 0 :
+    print ("Both are divisible by 4 and 3")
+
+elif a % 4 == 0 or a % 3 ==0:
+   print("A is divisible by 4 or 3")
+elif b % 4 == 0 or b % 3 ==0:
+   print("B is divisible by 4 or 3")
+else:
+    print("None of them are divisible by 4 or 3")
+
+Output:
+A is divisible by 4 or 3
+
+"""Answer7-A2"""
+a = 7
+a+=5
+print(a)
+a-=2
+print(a)
+a*=3
+print(a)
+a/=3
+print(a)
+
+output:
+12
+10
+30
+10.0
+
+
+
+"""Answer8-A2"""
+#we can check using logical operators
+a=10
+print(a>0 and a<20)
+
+Output:
+True
+
+
+"""Answer9-A2"""
+list1=("berlin")
+list2=("mark")
+list3=("bat")
+a=list1
+print(a is list2)
+print("bat" in list2)
+
+Output:
+False
+False
